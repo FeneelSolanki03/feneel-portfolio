@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feneel Solanki Portfolio</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <section id="header">
+        <div class="container-fluid">
+            <nav class="navbar   navbar-expand-lg navbar-dark">
+                <a style="font-family: cursive;" class="navbar-brand" href="index.html">Feneel</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#header">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">My Work</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="hello">
+                    <h1 style="font-family: cursive;font-weight: 600; font-size: 60px;">Hi,I'm <span style="color: #ff004f;font-family: cursive;">Feneel</span>  Solanki.</h1>
+                    <p class="respo" style="font-family: cursive;font-size: 40px; text-align: end; margin-top: 6%; font-weight: 400;">A Student,Web Developer and Programmer</p>
+
+                </div>
+
+
+            </div>
+
+    </section>
+
+    <div id="about">
+        <div class="container">
+            <div class="roww">
+                <div class="about-col-1">
+                    <img class="image" src="images/rom.PNG" alt="">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 style="font-family: cursive;font-size: 40px;font-weight: 300;color:#fff ;">About me</h1>
+                    <p style="font-family: cursive;">I'm a Student, Web Developer / Designer , and Programmer . I have a passion for Web Development/Designing
+                        and
+                        Programming/Coding and love
+                        to create  Websites,Softwares and Mobile Applications.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Developing Interactive Websites</li>
+                            <li><span>Software Development</span><br>Developing Latest Softwares with latest
+                                technologies</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>10th STD</span><br>GSEB 2018</li>
+                            <li><span>12th STD</span><br>GSEB 2020</li>
+                            <li><span>COMPUTER ENGINEERING</span><br>SILVEROAK UNIVERSITY </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>FRESHER</span><br>Learning Something New Everyday</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 style="font-family: cursive;font-size: 40px;font-weight: 300;color:#fff ;">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p style="font-family: cursive; font-size: 15px;">I'm a developer, so I know how to create your website to run across
+                        devices using the latest technologies
+                        available...</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p style="font-family: cursive; font-size: 15px;"> I can build the Androis/ios device applications smoothly with latest versions</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Software Development</h2>
+                    <p style="font-family: cursive; font-size: 15px;">I love to code and familiar with latest Programming language and
+                        can let your job done efficiently..</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 style="font-family: cursive;font-size: 40px;font-weight: 300;color:#fff ;">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Screenshot (34).PNG" alt="">
+                    <div class="layer">
+                        <h3>Tindog</h3>
+                        <p>Dating app for your pets</p>
+                        <a href="https://feneelgsolanki.github.io/feneel-tindog/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot (33).PNG" alt="">
+                    <div class="layer">
+                        <h3>Dice Game</h3>
+                        <p>Dice game to play With your friends</p>
+                        <a href="https://feneelgsolanki.github.io/feneel-game/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot (35).PNG" alt="">
+                    <div class="layer">
+                        <h3>Drum-Kit</h3>
+                        <p>Drum-kit that feels like real drums </p>
+                        <a href="https://feneelgsolanki.github.io/feneel-drumkit/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 style="font-family: cursive;font-size: 40px;font-weight: 300;color:#fff ;">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i><a style="text-decoration: none;color: #fff;font-family: cursive;" href="mailto:feneelsolanki67@gmail.com">feneelsolanki67@gmail.com</a></p>
+                    <p><i class="fa-solid fa-square-phone"></i>7046263247</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" download class="butn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" id="" placeholder="Your Name" required>
+                        <input type="email" name="Email" id="" placeholder="Your Email" required>
+                        <textarea name="Message" id=""  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="butn butn2" onclick="fun()">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169 Feneel Solanki</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        function fun(){
+            alert("Message Sent Successfully");
+        }
+    </script>
+
+</body>
+
+</html>
